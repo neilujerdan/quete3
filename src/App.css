@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.menu-active{
+  animation: App-logo-scale infinite 1s ;
+}
+
+@keyframes App-logo-scale {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
